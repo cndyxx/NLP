@@ -62,15 +62,19 @@ float NGramm::calculateEntropy(string textFile){
         index +=1;
     }
 
+    prefix = prefix.substr(2 );
     for(int i = index; i < textSizeWithoutEndsymbol; i++){
-        suffix =text[i];
+        suffix =text[i-1]; //old suffix
         prefix += suffix;
         prefix = prefix.substr(1);
+        suffix = text[i];
         probability = calculateProbability(prefix, suffix);
         if(probability != 0){
+            //entropy += log2f(probability);
             entropy += probability * log2f(probability);
         }
     }
+   // entropy /= textFile.size();
     entropy *= (-1);
     return entropy;
 

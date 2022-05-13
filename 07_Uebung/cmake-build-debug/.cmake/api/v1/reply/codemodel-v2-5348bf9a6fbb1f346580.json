@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/zwischenlsg/cmake-build-debug",
-		"source" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/zwischenlsg"
+		"build" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/cmake-build-debug",
+		"source" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung"
 	},
 	"version" : 
 	{

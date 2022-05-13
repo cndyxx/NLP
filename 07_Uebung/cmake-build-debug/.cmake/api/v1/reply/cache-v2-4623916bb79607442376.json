@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/zwischenlsg/cmake-build-debug"
+			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/zwischenlsg"
+			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/zwischenlsg/cmake-build-debug"
+			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/cmake-build-debug"
 		},
 		{
 			"name" : "src_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung/zwischenlsg"
+			"value" : "/Users/cindyhainz/Documents/OTH/06_Semester/DNLP/02_Uebung/07_Uebung"
 		}
 	],
 	"kind" : "cache",
