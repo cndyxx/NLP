@@ -1,10 +1,4 @@
-//
-// Created by Cindy Hainz on 13.05.22.
-//
-
 #include "nGramm.h"
-#include <string>
-#include <iostream>
 #include <cmath>
 #include <sys/time.h>
 
@@ -52,7 +46,7 @@ float NGramm::calculateEntropy(string textFile){
     float entropy;
     int textSizeWithoutEndsymbol = textFile.size()-endSymbol.size();
     string suffix, prefix;
-    float probability;
+    float probability=0.0;
 
     //add startsymbol and endsymbol
     for(int i = 0;i<n-1;i++){
@@ -79,7 +73,6 @@ float NGramm::calculateEntropy(string textFile){
         }
 
         if(probability != 0){
-            // entropy += probability * log2f(probability);
             entropy += log2f(probability);
         }
 
@@ -102,7 +95,6 @@ float NGramm::calculateEntropy(string textFile){
 
         if(probability != 0){
             entropy += log2f(probability);
-           // entropy += probability * log2f(probability);
         }
     }
     entropy /= textFile.size();

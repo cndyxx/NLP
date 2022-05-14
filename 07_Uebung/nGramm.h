@@ -1,6 +1,3 @@
-//
-// Created by Cindy Hainz on 13.05.22.
-//
 #include <string>
 #include <map>
 #include <list>
