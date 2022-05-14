@@ -7,24 +7,43 @@ Aufgabe 7.2.1:
 
 
 Aufgabe 7.2.2:
+// Alle Dateien sind in dem Ordner "data" zu finden
+
+Trainingsdaten: merkel-de-shorter.txt
+Testdaten: merkel-de-shorter.txt 
+
     Trainingsdaten und Testdaten sind die selben:
-        für n = 2:
-            Entropy
-        für n = 3:
-            Entropy
         für n = 4:
-            Entropy 1.74286
+            Cross Entropy 1.74286
         für n = 5
-            Entropy 1.07128
+            Cross Entropy 1.07128
         für n = 6:
-            Entropy 0.743843
+            Cross Entropy 0.743843
         für n = 7:
-            Entropy
+            Cross Entropy 0.513737
+        ...
+        für n = 12
+            Cross Entropy 0.090018
 
-    => Angabe über den Verlust - je kleiner desto besser das Modell
-
+Trainingsdaten: merkel-de-shorter.txt
+Testdaten: 02_inputText_testingEntropy.txt
 
     Trainingsdaten und Testdaten sind unterschiedlich:
+        für n = 4:
+            Cross Entropy 1.45324
+        für n = 5
+            Cross Entropy 0.845688
+        für n = 6:
+            Cross Entropy 0.497134
+        für n = 7:
+            Cross Entropy 0.26027
+        ...
+        für n = 12
+            Cross Entropy 0.02284
 
-=>
+         => Je größer das N desto kleiner ist die Kreuzentropie. Somit ist das Model für ein größeres N besser.
+            Voraussetzung: Die Testdaten müssen aus dem Trainingsdaten entnommen werden (90% Trainingsdaten und 10% Testdaten)
+                           
+
+
 Aufgabe 7.3:
