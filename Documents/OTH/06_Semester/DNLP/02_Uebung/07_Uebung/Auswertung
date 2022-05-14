@@ -1,0 +1,30 @@
+Aufgabe 7.1:
+In main.cpp line 44 - 46 wird der Text Zeile für Zeile eingelesen und trainiert.
+In train_nGramm in nGramm.cpp werden in line 117 - 120 die Startsymbole und das Endsymbol hinzugefügt.
+Text Generierung siehe nGramm.cpp generateText line 159 ff.
+
+Aufgabe 7.2.1:
+
+
+Aufgabe 7.2.2:
+    Trainingsdaten und Testdaten sind die selben:
+        für n = 2:
+            Entropy
+        für n = 3:
+            Entropy
+        für n = 4:
+            Entropy 1.74286
+        für n = 5
+            Entropy 1.07128
+        für n = 6:
+            Entropy 0.743843
+        für n = 7:
+            Entropy
+
+    => Angabe über den Verlust - je kleiner desto besser das Modell
+
+
+    Trainingsdaten und Testdaten sind unterschiedlich:
+
+=>
+Aufgabe 7.3:
